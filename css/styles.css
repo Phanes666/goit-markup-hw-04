@@ -36,7 +36,7 @@ h4,
 h5,
 h6,
 p,
-ul { 
+ul {
   margin: 0;
 }
 img {
@@ -87,6 +87,8 @@ button {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav-link {
@@ -161,18 +163,19 @@ button {
 
 .hero {
   background-color: var(--color-txt);
-max-width: 1440px;
+  max-width: 1440px;
 
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 188px 0;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)),
- url(../images/hero-background/people-office-1.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-background/people-office-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-style: normal;
@@ -315,7 +318,9 @@ background-size: cover;
   background-color: #ffffff;
 
   flex-basis: calc((100% - 3 * 24px) / 4);
-  
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -344,6 +349,27 @@ background-size: cover;
 .pro-container {
   padding: 32px 16px;
 }
+
+/* Four Section Customers */
+.customers {
+
+}
+.four-section-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-txt);
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+
+
 
 /* FOOTER */
 .footer {
@@ -381,11 +407,28 @@ background-size: cover;
 }
 .foot-container {
   align-items: center;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
-/* portfolio */
+  margin: 0 auto;
+
+}
+/* SOCIAL */
+
+.social-container {
+  display: flex;
+  align-items: center;
+}
+.social-text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+}
+/* PORTFOLIO*/
+
 .portfolio {
   padding: 96px 0 120px;
 }
@@ -430,6 +473,9 @@ background-size: cover;
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .btn {
   background-color: #4d5ae5;
@@ -484,6 +530,10 @@ background-size: cover;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.app:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /* styles bloks */
 
@@ -491,4 +541,5 @@ background-size: cover;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  
 }
