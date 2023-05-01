@@ -268,6 +268,7 @@ button {
 border-radius: 4px;
 
 height: 112px;
+margin-bottom: 8px;
 }
 .feature-icon {
 display: flex;
@@ -310,10 +311,7 @@ justify-content: center;
 /* section Three Our Team */
 .ot-container {
   align-items: center;
-  padding: 0 15px;
-  padding-top: 32px;
-  padding-left: 49px;
-  padding-right: 49px;
+padding: 32px 0;
 }
 
 .three-section {
@@ -427,7 +425,7 @@ background-color: var(--bg-color-darkblue-hover);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -447,7 +445,8 @@ background-color: var(--bg-color-darkblue-hover);
 }
 
 .custom-item {
-
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 
@@ -456,7 +455,7 @@ background-color: var(--bg-color-darkblue-hover);
  justify-content: center;
  align-items: center;
 width: 168px;
-height: 88px;
+
 
 border: 1px solid var(--color-customer-icon);
 border-radius: 4px;
