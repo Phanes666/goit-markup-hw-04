@@ -419,7 +419,7 @@ background-color: var(--bg-color-darkblue-hover);
 /* Four Section Customers */
 .customers {
   padding-top: 120px;
-
+padding-bottom: 120px;
 }
 .four-section-title {
   font-family: "Roboto";
@@ -689,7 +689,8 @@ margin-bottom: 16px;
 .card-link {
   display: block;
 }
-.card-link:hover {
+.card-link:hover,
+.card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
      rgba(46, 47, 66, 0.08);
