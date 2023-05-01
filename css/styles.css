@@ -406,7 +406,7 @@ button {
   /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 .foot-container {
-  align-items: center;
+  
 
   margin: 0 auto;
 
@@ -416,6 +416,8 @@ button {
 .social-container {
   display: flex;
   align-items: center;
+  margin-right: auto;
+  
 }
 .social-text {
   font-family: 'Roboto';
