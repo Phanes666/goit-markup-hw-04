@@ -15,6 +15,7 @@ html {
   --color-back: #ffffff;
   --color-icon-hover: #31D0AA;
   --bg-color-darkblue-hover: #404BBF;
+  --color-customer-icon: #8E8F99;
   /* others */
   --indent: 24px;
   --items: 9;
@@ -257,6 +258,24 @@ button {
 .one-section-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+/* FEATURE ICONS */
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F4F4FD;
+border-radius: 4px;
+
+height: 112px;
+}
+.feature-icon {
+display: flex;
+justify-content: center;
+}
+
+
+
 
 /* section Two What are we doing */
 .awd-container {
@@ -415,6 +434,43 @@ background-color: var(--bg-color-darkblue-hover);
   color: var(--color-txt);
   margin: 0 auto;
   margin-bottom: 72px;
+  margin-top: 120px;
+}
+/* CUSTOMERS ICONS */
+
+.custom-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.custom-item {
+
+}
+
+
+.custom-link {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+width: 168px;
+height: 88px;
+
+border: 1px solid var(--color-customer-icon);
+border-radius: 4px;
+color: var(--color-customer-icon);
+}
+
+.custom-icon {
+fill: currentColor;
+}
+
+.custom-link:hover,
+.custom-link:focus {
+  border: 1px solid var(--bg-color-darkblue-hover);
+  color: var(--bg-color-darkblue-hover);
 }
 
 
