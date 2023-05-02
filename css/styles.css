@@ -8,14 +8,14 @@ html {
   --secondary-font: "Raleway", sans-serif;
 
   /* colors */
-  --logo-text-color:  #4D5AE5;
+  --logo-text-color: #4d5ae5;
   --button-backgroud: #f4f4fd;
   --color-txt: #2e2f42;
   --color-txt-body: #434455;
   --color-back: #ffffff;
-  --color-icon-hover: #31D0AA;
-  --bg-color-darkblue-hover: #404BBF;
-  --color-customer-icon: #8E8F99;
+  --color-icon-hover: #31d0aa;
+  --bg-color-darkblue-hover: #404bbf;
+  --color-customer-icon: #8e8f99;
   /* others */
   --indent: 24px;
   --items: 9;
@@ -264,19 +264,16 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F4F4FD;
-border-radius: 4px;
+  background: #f4f4fd;
+  border-radius: 4px;
 
-height: 112px;
-margin-bottom: 8px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 .feature-icon {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
-
-
 
 /* section Two What are we doing */
 .awd-container {
@@ -311,7 +308,6 @@ justify-content: center;
 /* section Three Our Team */
 .ot-container {
   align-items: center;
-
 }
 
 .three-section {
@@ -339,9 +335,6 @@ justify-content: center;
 .three-section-item {
   background-color: #ffffff;
 
-
-
-  
   flex-basis: calc((100% - 3 * 24px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -378,48 +371,40 @@ justify-content: center;
 /* PRO ICONS */
 
 .pro-icons-list {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 32px;
 }
 .pro-icons-item {
-
 }
 
 .pro-icons-link {
   display: flex;
-justify-content: center;
-align-items: center;
-  
-  width: 40px;
-height: 40px;
-background-color: var(--logo-text-color);
-border-radius: 50%;
-color: var(--button-backgroud);
+  justify-content: center;
+  align-items: center;
 
+  width: 40px;
+  height: 40px;
+  background-color: var(--logo-text-color);
+  border-radius: 50%;
+  color: var(--button-backgroud);
 }
 
-
 .ot-icons {
-  fill:currentColor;
+  fill: currentColor;
 }
 
 .pro-icons-link:hover,
 .pro-icons-link:focus {
-background-color: var(--bg-color-darkblue-hover);
+  background-color: var(--bg-color-darkblue-hover);
 }
-
-
-
-
-
 
 /* Four Section Customers */
 .customers {
   padding-top: 120px;
-padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .four-section-title {
   font-family: "Roboto";
@@ -433,7 +418,6 @@ padding-bottom: 120px;
   color: var(--color-txt);
   margin: 0 auto;
   margin-bottom: 72px;
- 
 }
 /* CUSTOMERS ICONS */
 
@@ -450,22 +434,20 @@ padding-bottom: 120px;
   height: 88px;
 }
 
-
 .custom-link {
   display: flex;
- justify-content: center;
- align-items: center;
-width: 100%;
-height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
-
-border: 1px solid var(--color-customer-icon);
-border-radius: 4px;
-color: var(--color-customer-icon);
+  border: 1px solid var(--color-customer-icon);
+  border-radius: 4px;
+  color: var(--color-customer-icon);
 }
 
 .custom-icon {
-fill: currentColor;
+  fill: currentColor;
 }
 
 .custom-link:hover,
@@ -474,9 +456,6 @@ fill: currentColor;
   color: var(--bg-color-darkblue-hover);
 }
 
-
-
-
 /* FOOTER */
 .all-footer {
   display: flex;
@@ -484,10 +463,6 @@ fill: currentColor;
 }
 
 .footer {
-  display: flex;
-  align-items: baseline;
-  
-  
   background-color: var(--color-txt);
   padding: 100px 0;
 }
@@ -512,7 +487,7 @@ fill: currentColor;
   font-style: normal;
 
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.15;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 
@@ -522,33 +497,27 @@ fill: currentColor;
 }
 .foot-container {
   display: inline-block;
-align-items: baseline;
-margin-right: 120px;
+  align-items: baseline;
+  gap: 120px;
 }
-
-
-
 
 /* SOCIAL */
 
 .social-container {
-display: inline-block;
-justify-content: center;
+  display: inline-block;
+  justify-content: center;
   align-items: center;
-
 }
 .social-text {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-back);
-margin-bottom: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-back);
+  margin-bottom: 16px;
 }
-
-
 
 /* FOOTER ICONS */
 
@@ -558,36 +527,32 @@ margin-bottom: 16px;
   align-items: center;
   gap: 16px;
   padding-bottom: 32px;
-  }
-  .footer-icons-item {
+}
+.footer-icons-item {
   width: 40px;
   height: 40px;
-  }
-  
-  .footer-icons-link {
+}
+
+.footer-icons-link {
   display: flex;
   justify-content: center;
   align-items: center;
-    
+
   width: 100%;
   height: 100%;
   background-color: var(--logo-text-color);
   border-radius: 50%;
- color: var(--button-backgroud); 
+  color: var(--button-backgroud);
 }
-  
-  
-  .footer-icons {
-    fill: currentColor;
-  }
-  
-  .footer-icons-link:hover,
-  .footer-icons-link:focus {
-   background-color: var(--color-icon-hover);
-  
-  
-  }
 
+.footer-icons {
+  fill: currentColor;
+}
+
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+  background-color: var(--color-icon-hover);
+}
 
 /* PORTFOLIO*/
 
@@ -699,8 +664,7 @@ margin-bottom: 16px;
 .card-link:hover,
 .card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
-     rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* styles bloks */
@@ -709,5 +673,4 @@ margin-bottom: 16px;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
