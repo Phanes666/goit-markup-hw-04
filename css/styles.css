@@ -461,6 +461,17 @@ button {
   display: flex;
   align-items: baseline;
 }
+.foot-container {
+  display: inline-block;
+  align-items: baseline;
+  gap: 120px;
+}
+.social-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
 
 .footer {
   background-color: var(--color-txt);
@@ -495,19 +506,11 @@ button {
   margin: 0;
   /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
-.foot-container {
-  display: inline-block;
-  align-items: baseline;
-  gap: 120px;
-}
+
 
 /* SOCIAL */
 
-.social-container {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-}
+
 .social-text {
   font-family: "Roboto";
   font-style: normal;
