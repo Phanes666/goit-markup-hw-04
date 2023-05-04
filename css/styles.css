@@ -318,9 +318,7 @@ button {
 .three-section {
   background-color: #f4f4fd;
   padding: 120px 0;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 .three-section-title {
   font-family: "Roboto";
@@ -383,7 +381,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 32px;
+
 }
 .pro-icons-item {
 }
@@ -434,7 +432,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 120px;
+  
 }
 
 .custom-item {
@@ -472,7 +470,8 @@ button {
 .foot-container {
   display: inline-block;
   align-items: center;
-  gap: 120px;
+  margin-right: 120px;
+
 }
 .social-container {
   display: block;
@@ -509,7 +508,7 @@ button {
   font-style: normal;
 
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 
@@ -538,7 +537,7 @@ button {
 
   align-items: center;
   gap: 16px;
-  padding-bottom: 32px;
+  
 }
 .footer-icons-item {
   width: 40px;
